@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cifrado Vigenère Detallado</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Cifrado Vigenère - Paso a Paso</h1>
+
+    <div class="container">
+        <button onclick="mostrarAbecedario()">Mostrar Abecedario</button>
+        <pre id="abecedarioResult"></pre>
+
+        <button onclick="mostrarMatriz()">Mostrar Matriz Vigenère</button>
+        <pre id="matrizResult"></pre>
+
+        <input type="text" id="textoACifrar" placeholder="Texto a cifrar">
+        <input type="text" id="llave" placeholder="Llave">
+        <button onclick="cifrarTexto()">Cifrar Texto</button>
+        <pre id="cifradoResult"></pre>
+
+        <input type="text" id="textoADescifrar" placeholder="Texto a descifrar">
+        <button onclick="descifrarTexto()">Descifrar Texto</button>
+        <pre id="descifradoResult"></pre>
+    </div>
+
+    <script type="module" src="script.js"></script>
+</body>
+</html>
